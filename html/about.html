@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/css/course.css">
+    <link rel="stylesheet" href="../public/css/about.css">
+    <script src="style.js"></script>
+    <title>Document</title>
+    <style>
+      body{
+        background-color: white;
+        margin:0px;
+        padding:0px;
+      }
+      .head1{
+        width: auto;
+        background-color: rgb(32, 32, 192);
+        border-bottom: 1px solid white;
+      }
+      .signupbtn{
+        border-radius: 0px;
+        background-color: rgb(12, 12, 75);
+      }
+      .signupbtn:hover{
+        color: red;
+      }
+      .galary{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        border-radius: 3px;
+      }
+      @media only screen and (max-width: 425px) {
+       /* For mobile phones: */
+       .instName {
+       font-size:7px !important;
+       }
+      }
+  kbd{
+        background-color: rgb(253, 29, 13);
+      }
+    </style>
+</head>
+<body>
+    <!--phone enquiry button start-->
+<a href="tel:+919451525017">
+    <button type="button" class="btn btn-primary" id="enq"  data-bs-toggle="" data-bs-target="">
+          Request Call Now  </button></a>
+<!--phone enquiry button end-->
+
+<!--phone email start -->
+  <div class="container-fluid">
+    <div class="row head1">
+      <div class="col-md-6 mt-2">
+        <a href="tel:+919451525017" style="text-decoration: none;">
+        <kbd style="background-color: none;"><b><i class="fa fa-phone text-white" aria-hidden="true"></i>
+          Mobile No:</b> +91 9451525017</kbd>
+        </a>
+      </div>
+      <div class="col-md-6 text-white mt-2 mb-2"align="right">
+        <a href="mailto:aciitmjap@gmail.com" style="text-decoration: none;color:white">
+      <b>
+      <i class="fa fa-envelope" aria-hidden="true"></i>
+       E-Mail : aciitmjnp@gmail.com</b></a>
+      </div>
+    </div>
+  </div>
+  <!--phone email end-->
+
+  <!--whatsapp btn start -->
+  <div id="wh">
+    <a href="https://wa.me/919451525017" target="_blank">
+        <i class="fa fa-whatsapp fa-3x" aria-hidden="true" style="color: rgb(9, 250, 9);"></i>
+    </a>
+</div>
+ <!--whatsapp btn end-->
+
+<!--Carrer  Modal start-->
+
+<div class="modal fade" data-aos="flip-left" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content" style="background-color: rgb(12, 12, 75); border: none; border-radius: 0px;">
+        <div class="modal-header m-auto">
+          <a href="tel:+919451525017">
+          <h5 class="modal-title text-white" id=""><b>Apply Now </b></h5>
+          <button type="button" class="btn-close d-none" data-bs-dismiss="modal" aria-label="Close"></button></a>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <form class="mt-4">
+                <div class="form-group">
+                  <input type="text" class="form-control in" id="exampleInputPassword" aria-describedby="emailHelp" placeholder=" Full Name" style="border: 3px solid rgb(48, 238, 10);
+                  background-color: rgb(247, 238, 238); color: rgb(11, 10, 10);border-radius:25px; border: 2px solid white;">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your name with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control in" id="exampleInputPassword" aria-describedby="emailHelp" placeholder=" FatherName" style="border: 3px solid rgb(48, 238, 10);
+                  background-color: rgb(247, 238, 238); color: rgb(11, 10, 10);border-radius:25px; border: 2px solid white;">
+                </div>
+                <div class="form-group">
+                  <input type="tel" class="form-control in" id="exampleInputPassword" placeholder=" Phone Number" style="border: 3px solid rgb(48, 238, 10);
+                 background-color: rgb(247, 238, 238); color: rgb(11, 10, 10);border-radius:25px; border: 2px solid white;">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control in" id="exampleInputPassword" placeholder=" Email Address" style="border: 3px solid rgb(48, 238, 10);
+                  background-color: rgb(247, 238, 238); color: rgb(11, 10, 10);border-radius:25px; border: 2px solid white;">
+                  </div>         
+                  <div class="form-group">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" style="border-radius: 20px;
+                     font-size: 17px;border: 3px solid rgb(48, 238, 10);
+                     background-color: rgb(247, 238, 238); color: rgb(11, 10, 10);border-radius:25px; border: 2px solid white;" placeholder="Message"></textarea>
+                  </div>   
+               <div class="text-center">
+                <button type="submit" class="btn btn-primary" style="width: 150px;background-color: rgb(46, 11, 126);">Submit</button>
+               </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Carrer  Modal end-->
+
+    <!--navbar menu start-->
+    <div class="z">
+      <nav class="navbar navbar-expand-lg navbar-light c" >
+        <div class="container-fluid " >
+            <div class=" d-inline" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+            <div class="d-flex align-items-center">
+              <img src="../public/images/logoimg.png" height="85px" width="90px" alt="">
+              <div class="ms-2">
+                <p class="instName">
+                  ANURAG COMPUTER INSTITUTE OF IT & MANAGEMENT<br> Malhani Bazar (pnb bank first floor) Jaunpur</p>
+               </div>
+            </div>
+            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border: none;">
+            <span <i class="fa fa-bars" aria-hidden="true " style="color: white;font-size:35px;"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="../index.html" ><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="about.html"><b>About us</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href=""><b>Admission</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href=""><b>Course</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href=""><b>Result</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href=""><b>Cirtificate</b></a>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-primary" id="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Career
+              </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--navbar menu end -->
+    
+   <!-- About Content start   -->
+   <div class="responsive-container-block bigContainer">
+    <div class="responsive-container-block Container bottomContainer">
+      <div class="allText bottomText">
+        <p class="text h1 headingText " style="font-weight: bold;"> <span style="font-size:50px;">
+          Welcome To </span>  <br> <span style="
+color: rgb(131,58,180);
+color: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);font-size:35px;">ANURAG COMPUTER INSTITUTE OF IT & MANAGEMENT</span>
+        </p>
+        <p class="text-blk subHeadingText">
+        Grow your skills & get world class job
+        </p>
+        <p class="text-blk description">
+          ANURAG COMPUTER INSTITUTE OF IT & MANAGEMENT (ACIITM) was started in the year 2016 . Our mission is to promote Computer Literacy to all the Citizens of this country, by providing "REASONABLE, AFFORDABLE AND UNDERSTANDABLE Quality Computer Education" and help them to become, a better-equipped good citizen and empower them to face this competitive era of modernization, automation and computerization. 
+          Anurag Computer Institute of It & Management (ACIITM) by Maa Gyanti Seva Samiti is a national programme of information technology education and development. It is registered under Act. 21, 1860 (Reg. No. 28004).an ISO 9001:2015 certified Institution.
+Anurag Computer Institute of It & Management (ACIITM) by Maa Gyanti Seva Samiti is registered under National Institute of Electronics and Information Technology (NIELIT) 88005276.
+
+        </p>
+        <a>
+        </a>
+      </div>
+      <div class="videoContainer">
+        <img src="../public/images/jnulg.jpg" class="img-fluid mainVideo" alt="">
+        <img class="dotsImg image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/cw3.svg">
+      </div>
+      </div>
+  </div>
+     <!-- About Content end   -->
+
+     <!-- Footer start -->
+<section data-aos="flip-left">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250" ><path fill="rgb(12, 12, 75)" fill-opacity="1" d="M0,64L60,101.3C120,139,240,213,360,229.3C480,245,600,203,720,165.3C840,128,960,96,1080,106.7C1200,117,1320,171,1380,197.3L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+<section class="container-fluid " style="background-color:  rgb(12, 12, 75); color: white;" >
+    <div class="row text-center">
+        <h3 class="h3 py-3 m-auto">Information</h3>
+    </div>
+    <div class="row mb-4">
+        <div class="testimon1 m-auto" style="background-color: chartreuse;"></div>
+       </div>
+    <div class="row">
+        <p class="m-auto" style="color: gold;"><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio rerum neque, dicta magni ipsum quam.</b></p>
+    </div>
+    <div class="row">
+        <div class="col-md-4 mt-3">
+            <div class="row text-center">
+                <h4 class="h2 m-auto">Location</h4>
+            </div>
+            <div class="text-center mt-4">
+                <ul class="list-unstyled m-auto mb-0 text-white" data-aos="flip-up">
+                    <li>
+                      <a href="https://goo.gl/maps/PoqEpYArmKsJKC329" class="text-white"><i class="fa fa-map-marker" aria-hidden="true" style="font-size: 25px;color: white;"></i> Address</a>
+                    </li>
+                    <li>
+                      <a href="tel:+919451525017" class="text-white"><i class="fa fa-mobile" aria-hidden="true" style="font-size: 25px;color: white;"></i> +91 9451525017</a>
+                    </li>
+                    <li>
+                      <a href="mailto:aciitmjnp@gmail.com" class="text-white"><i class="fa fa-envelope" aria-hidden="true" style="font-size: 25px;color: white;"></i> aciitmjnp@gmail.com</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+        <div class="col-md-4 mt-3">
+            <div class="row text-center">
+                <h4 class="h2 m-auto">Media</h4>
+            </div>
+            <div class="text-center mt-4">
+                <ul class="list-unstyled m-auto mb-0 text-white" data-aos="flip-up">
+                    <li>
+                      <a href="#!" class="text-white">Careers</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Courses </a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Contact Us</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+        <div class="col-md-4 mt-3">
+            <div class="row text-center">
+                <h4 class="h2 m-auto">Thankyou!</h4>
+                <h4 class="h6 m-auto pt-2">For visiting our website 👍</h4>
+            </div>
+            <div class="text-center mt-2" data-aos="flip-up">
+                <div class="row ml-5">
+                 
+                </div>
+                <div class="text-center mt-2">
+                    <button type="submit" class="btn btn-primary" style="width: 100px;background-color: rgb(46, 11, 126);">Submit</button>
+                   </div>
+                   <a href=""><i class="fa fa-facebook-official" aria-hidden="true" style="font-size: 25px;text-decoration: none;margin: 5px;color: white;"></i></a>
+                   <a href=""><i class="fa fa-twitter-square" aria-hidden="true" style="font-size: 25px;text-decoration: none;margin: 5px;color: white;"></i></a>
+                   <a href=""><i class="fa fa-linkedin-square" aria-hidden="true" style="font-size: 25px;text-decoration: none;margin: 5px;color: white;"></i></a>
+                   <a href=""><i class="fa fa-youtube-play" aria-hidden="true" style="font-size: 25px;text-decoration: none; margin: 5px;color: white;"></i></a>
+            </div>
+        </div>
+    </div><hr style="background-color: white;">
+    <div class="row text-white">
+        <p class="m-auto p-2" style="color: gold;"><b> © 2023 Copyright: All Right Reserved by ACIITM</b></p>
+    </div>
+</section>
+</section>
+ <!-- Footer end -->
+<button class="arr">
+  <i class="fa fa-arrow-up fa-1x text-white" aria-hidden="true"></i>
+</button>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+ AOS.init({
+        offset:1,
+        duration: 2000,
+      });
+      const gotop=document.querySelector('.arr');
+      window.addEventListener('scroll',check)
+      function check(){
+        if(window.scrollY>300){
+          gotop.style.display= "block";
+        }
+        else{
+          gotop.style.display="none";
+          
+        }
+      }
+      gotop.addEventListener('click',()=>{
+        window.scrollTo({
+          top:0,
+          behavior:"smooth"
+        })
+      })
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
